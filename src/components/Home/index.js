@@ -11,7 +11,7 @@ const Home = () => {
                  <img src={LogoTitle} alt="developer" />
                 ngel
                 <br />
-                CS Student
+                aspiring web developer
                 </h1>
                 <h2>CS Student / Future Web Developer</h2>
                 <Link to="/contact" className='flat-button'>CONTACT ME</Link>
