@@ -48,7 +48,7 @@ const Contact = () => {
                     idx={15}/>
                 </h1>
                 <p>
-                    I am interested in internship oppurtunities revolving around web development. However, if you have any other requests or questions, don't hesitate to contact me using the form below.
+                    I am interested in internship oppurtunities revolving around Software Engineering. However, if you have any other requests or questions, don't hesitate to contact me using the form below.
                 </p>
                 <div className='contact-form'>
                     <form ref={form} on onSubmit={sendEmail}>
