@@ -27,7 +27,7 @@ const About = () => {
                     
                 </h1>
                 <p>
-                Hello! I'm Angel Torres, a passionate 19-year-old currently immersed in the world of computer science.
+                Hello! I'm Angel Torres, a passionate college student currently immersed in the world of computer science.
                 </p>
                 <p>
                 I'm pursuing my major at Fresno City College with big plans to transfer soon and continue my academic journey. My coding journey has led me through classes in C++ and Java, and I've got a solid grasp of HTML and CSS.
