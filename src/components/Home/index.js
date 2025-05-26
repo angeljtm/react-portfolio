@@ -8,8 +8,8 @@ import Loader from 'react-loaders';
 
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
-    const nameArray = ['n', 'g', 'e', 'l']
-    const jobArray = ['a','s','p','i','r','i','n','g',' ','w','e','b',' ','d','e','v','e','l','o','p','e','r']
+    const nameArray = ['n', 'g', 'e', 'l.']
+    const careerArray = ['a','s','p','i','r','i','n','g',' ','s','o','f','t','w','a','r','e',' ','e','n','g','.','!'];
 
     useEffect(() => {
         setTimeout(() => {
@@ -36,7 +36,7 @@ const Home = () => {
                 strArray={jobArray}
                 idx={22}/>
                 </h1>
-                <h2>CS Student / Future Web Developer</h2>
+                <h2>CS Student / Future Software Engineer</h2>
                 <Link to="/contact" className='flat-button'>CONTACT ME</Link>
             </div>
             <Logo />
