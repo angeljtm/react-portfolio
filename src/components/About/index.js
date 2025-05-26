@@ -27,13 +27,13 @@ const About = () => {
                     
                 </h1>
                 <p>
-                Hey! I'm Angel Torres, a passionate college student currently immersed in the world of computer science.
+                Hey! I'm Angel Torres, I transfered from Fresno City College to Cal State East Bay and am currently looking for and internship and make connections to help me in my career.
                 </p>
                 <p>
-                I'm pursuing my major at Fresno City College with big plans to transfer soon and continue my academic journey. My coding journey has led me through classes in C++ and Java, and I've got a solid grasp of HTML and CSS.
+                I'm pursuing my Bachelor of Science in Computer Science at Cal State East Bay. My coding journey has led me through classes in C++ and Java, and I've got a solid grasp of HTML and CSS.
                 </p>
                 <p> 
-                Beyond the screen, I find joy in capturing moments through film photography and maintaining a healthy lifestyle by indulging in my love for running. Life's an exciting blend of code, creativity, and the great outdoors for me!
+                Beyond the screen, I like to express myself with film photography and maintaining a healthy lifestyle by running. Currently have 1 marathon sub 4 hours on my belt. Soon to be more. Life's an exciting blend of code, creativity, and the running for me!
                 </p>
             </div>
 
