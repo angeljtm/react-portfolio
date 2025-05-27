@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngular, faCss3, faGitAlt, faHtml5, faJsSquare, faReact } from '@fortawesome/free-brands-svg-icons'
 import Loader from 'react-loaders'
+import profilePic from 'src/assets/images/profilePic.png'
 
 const About = () => {
 
@@ -18,7 +19,7 @@ const About = () => {
     return (
         <>
         <div className='container about-page'>
-            <img style='border-radius: 50%;' src='...../images/profilePic.png'/>
+             <img src={profilePic} alt="Profile" style={{ borderRadius: '50%' }}/>
             <div className='text-zone'>
                 <h1>
                     <AnimatedLetters 
