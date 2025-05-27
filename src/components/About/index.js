@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngular, faCss3, faGitAlt, faHtml5, faJsSquare, faReact } from '@fortawesome/free-brands-svg-icons'
 import Loader from 'react-loaders'
-import profilePic from 'src/assets/images/profilePic.png'
+import profilePic from '../../assets/images/profilePic.png'
 
 const About = () => {
 
@@ -19,7 +19,6 @@ const About = () => {
     return (
         <>
         <div className='container about-page'>
-             <img src={profilePic} alt="Profile" style={{ borderRadius: '50%' }}/>
             <div className='text-zone'>
                 <h1>
                     <AnimatedLetters 
@@ -27,6 +26,7 @@ const About = () => {
                     strArray={['A','b','o','u','t',' ','m','e']}
                     idx={15}/>
                 </h1>
+                <img src={profilePic} alt="Profile" className="profile-pic--float"/>
                 <p>
                 Hey! I'm Angel Torres, I transfered from Fresno City College to Cal State East Bay and am currently looking for and internship and make connections to help me in my career.
                 </p>

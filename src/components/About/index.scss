@@ -9,6 +9,15 @@
     overflow: hidden;
 }
 
+.profile-pic--float {
+  float: right;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 0 1rem 1rem;  /* push text away from image */
+}
+
 .cubespinner {
     animation-name: spincube;
     animation-timing-function: ease-in-out;
