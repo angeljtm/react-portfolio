@@ -18,13 +18,13 @@ const About = () => {
     return (
         <>
         <div className='container about-page'>
+            <img style='border-radius: 50%;' src='../images/profilePic.png'/>
             <div className='text-zone'>
                 <h1>
                     <AnimatedLetters 
                     letterClass={letterClass}
                     strArray={['A','b','o','u','t',' ','m','e']}
                     idx={15}/>
-                    <img style='border-radius: 50%;' src='.../images/profilePic.png'/>
                 </h1>
                 <p>
                 Hey! I'm Angel Torres, I transfered from Fresno City College to Cal State East Bay and am currently looking for and internship and make connections to help me in my career.
