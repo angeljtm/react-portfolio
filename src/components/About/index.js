@@ -18,7 +18,7 @@ const About = () => {
     return (
         <>
         <div className='container about-page'>
-            <img style='border-radius: 50%;' src='../images/profilePic.png'/>
+            <img style='border-radius: 50%;' src='...../images/profilePic.png'/>
             <div className='text-zone'>
                 <h1>
                     <AnimatedLetters 
